@@ -1,0 +1,181 @@
+body {
+    display: flex;
+flex-wrap: wrap ;
+flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+}
+
+.contenedorProductos {
+    background-color: white;
+    border-radius: 4px;
+    max-width: 280px; 
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.contenedorProductos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedorProductos h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contenedorProductos p {
+    color: black;
+    margin: 5px 0;
+}
+
+.contenedorProductos button {
+    background-color: #1014c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.contenedorProductos button:hover {
+    background-color: #060850;
+}
+.contenedorBotones {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.botonCarrito {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonCarrito {
+    background-color: #1014c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.botonCarrito:hover {
+    background-color: #060850;
+}
+
+.botonCarrito img {
+    width: 20px;
+    padding-right: 10px;
+    filter: brightness(0) invert(1);
+}
+
+li {
+    font-size: 18px; 
+    margin: 10px 0; 
+    padding: 5px; 
+    background-color: white; 
+    border: 1px solid whitesmoke; 
+    border-radius: 5px; 
+    list-style: none; 
+  }
+
+  .logoSebs {
+    width: 300px;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .CartBtn {
+    margin: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    border: solid 3px #1014c5;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1014c5;
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 1.04em;
+    font-weight: 600;
+  }
+  
+  .CartBtn:hover .IconContainer {
+    transform: translateX(58px);
+    border-radius: 40px;
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:hover .text {
+    transform: translate(10px,0px);
+    transition-duration: .5s;
+  }
+  
+  
+  .CartBtn:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+  }
+
+  a {
+    text-decoration: none;
+  }
